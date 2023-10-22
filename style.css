@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 20px;
+    background-color: darkslategrey;
+    color: white;
+    padding-left: 10px;
+    padding-top: 3px;
+    font-size: 12px;
+    font-family: "Dancing Script", cursive;
+}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: olivedrab;
+    padding: 0px 20px;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.ustGel:hover{
+    background-color: darkslategrey;
+    padding: 14px;
+}
+.tikla:active{
+    color: orange;
+}
+
+.ciz{
+    padding: 5px 2px;
+    background-color:  rgb(255, 190, 69);
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(63, 88, 88);
+    display: flex;
+    justify-content: space-between;
+}
+
+.sol{
+    height: 100vh;
+    width: 50%;
+    border-right: 1px solid white;
+}
+
+.solic{
+    margin:150px 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Playpen Sans', cursive;
+    text-shadow: 5px 5px 10px rgb(189, 188, 188);
+}
+
+.sag{
+    height: 100vh;
+    width: 50%;
+    background-color: rgb(243, 188, 85);
+}
+
+.sag img{
+    
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    height: 65%;
+    width: 50%;
+    box-shadow:10px 10px 20px rgb(99, 99, 99);   
+}
+
+.sagic{
+    height: 100%;
+    width: 100%; 
+    margin:auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content:space-around;
+    background-color: olivedrab;
+    padding: 25px 0px;
+    align-items: center;
+    gap: 50px;
+}
+
+footer .footer-sg ul li :first-child{
+    color: blue;
+}
+
+footer .footer-sl ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer .footer-sl ul li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer-Ust:hover{
+    font-size: 40px;
+}
+.footer-tik:active{
+    color: white;
+}
+
+
+footer .footer-sg ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding: 15px;
+}
+
+.cubuk{
+    width: 4px;
+    height: 150px;
+    background-color:rgb(255, 190, 69);
+}
+
+/* Hakkımda */
+.divHak{
+    color: white;
+    width: 500px;
+    text-align:justify;
+    margin:200px 50px;
+    align-items: center;
+    justify-content: center;
+    font-size:large;
+}
+
+.divIlet{
+    color: white;
+    width: 500px;
+    text-align:justify;
+    margin: 200px 50px;
+    align-items: center;
+    justify-content: center;
+    font-size:large;
+}
+
+main .divIlet a{
+    color: orange;  
+    text-decoration: none;  
+}
